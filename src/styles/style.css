@@ -29,3 +29,40 @@ header{
     font-size: var(--font-button-size);
     text-decoration: none;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 80px;
+}
+
+.content-main{
+   display: flex;
+    flex-direction: column;
+   gap: 20px;
+}
+
+h1{
+    font-size: var(--font-headline-h1-size);
+    font-family: var(--font-title);
+    width: 562px;
+}
+
+.highlighted-word{
+    color: var(--color-primary);
+}
+
+.content-main p{
+    font-size: var(--font-body-size);
+    font-family: var(--font-body);
+    color: var(--color-secondary-1-gray);
+    width: 544px;
+    line-height: 30px;
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+}
