@@ -106,3 +106,30 @@ h1{
   line-height: 30px;
 }
 
+.section-chef {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding: 60px;
+}
+ 
+.section-chef-content{
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+    width: 503px;
+}
+ 
+.section-chef-content h2 {
+    width: 433px;
+    line-height: 60px;
+}
+ .section-chef-content p{
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    color: var(--color-secundary-gray);
+    line-height: 30px;
+}
+
+
