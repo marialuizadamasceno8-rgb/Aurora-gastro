@@ -181,3 +181,27 @@ h1{
     width: 271px;
     margin: 0 auto;
 }
+
+.section-our-environments{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding: 60px;
+}
+
+.container-environments{
+    display: flex;
+    gap: 20px;
+}
+
+.container-environments-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.container-environments-left div{
+    display:flex;
+    gap: 29px;
+}
