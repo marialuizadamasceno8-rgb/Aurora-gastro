@@ -6,7 +6,7 @@
 }
 
 :root{
-    --color-primary: #EA6D27;
+    --color-primary-orange: #EA6D27;
     --color-primary-orange-10: rgba(234, 111, 39, 0.1);
     --color-secondary-white:#FFFFFF;
     --color-secondary-dark:#101821;
@@ -20,7 +20,7 @@
     --font-body-size: 16px;
     --font-button-size: 20px;
 
-    --font-tittle:"David Libre", serif;
+    --font-title:"David Libre", serif;
     --font-body:"Inter", sans-serif;
 }
 
@@ -38,10 +38,10 @@
 }
 
 .btn-primary{
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-orange);
 }
 
 h2{
- font-family: var(--font-tittle);
+ font-family: var(--font-title);
  font-size: var(--font-headline-h2-size);
 }
